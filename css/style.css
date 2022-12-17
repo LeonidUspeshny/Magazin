@@ -17,21 +17,20 @@
 }
 .navbar {
     display: flex;
+    justify-content: space-around;
 }
+
 .logo {
     display: flex;
-    align-items: center;
-    margin: 0 auto;
 }
 
 .logo .logo_img {
-    width: 100px;
-    height: 60px;
+    width: 200px;
     margin: 0 auto;
 }
 
 
-.logo .logo_text {
+.logo_text {
     color: #ffffff;
     font-family: Roboto;
     font-size: 20px;
@@ -40,7 +39,6 @@
     text-transform: uppercase;
     text-align: center;
     margin-top: 14px;
-    padding: 30px;
 }
 h1 {
     margin-top: 53px;
