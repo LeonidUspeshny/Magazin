@@ -15,15 +15,26 @@
     background: url('../images/fon.jpg') center center/cover no-repeat;
     padding: 39px 0 62px 0;
 }
-.logo .logo_img {
-    display: block;
+.navbar {
+    display: flex;
+}
+.logo {
+    display: flex;
+    align-items: center;
     margin: 0 auto;
 }
+
+.logo .logo_img {
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+}
+
 
 .logo .logo_text {
     color: #ffffff;
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500;
     line-height: 24px;
     text-transform: uppercase;
